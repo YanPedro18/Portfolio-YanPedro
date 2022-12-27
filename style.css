@@ -555,6 +555,7 @@ aside {
     border-radius: 15px;      
     border: 1px solid rgb(0, 0, 0);
 }
+
 .card > h2 {
     text-align: center;
     color: white;
@@ -567,6 +568,7 @@ aside {
     border-bottom: 2px solid rgb(244, 51, 51);
 }
 .card > a > video {
+    
     margin: 10px 50px 10px 0px;
     width: 27rem;
     padding: 5%;
