@@ -233,7 +233,7 @@
         bottom: 10%;
     }
     .sect-03 {
-        height: 35vh;
+        height: 40vh;
         font-size: 1.3rem;
     }
     .sect-03 > p {
@@ -242,7 +242,7 @@
     }
     .sect-03 > h1 {
         font-size: 2.4rem;
-        width: 22%;
+        width: 26%;
     }
     aside {
         top: -164px;
@@ -309,7 +309,7 @@
         display: block;
         position: absolute;
         width: 25%;
-        font-size: 1.8rem;
+        font-size: 2.3rem;
         right: 0px;
         top: 64px;
         border-top: 2px solid rgb(244, 51, 51);
