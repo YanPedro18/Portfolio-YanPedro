@@ -168,7 +168,10 @@ aside {
     margin-top:37%;
     border-radius: 100px;
     animation: load 10s ease-in-out infinite; 
-}   
+} 
+.mao {
+    width: 30px;
+}  
 .respo img:nth-child(2) {
     position: absolute;
     top: 30%;
