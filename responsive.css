@@ -182,7 +182,7 @@
         max-width: 6.0%;
     }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
     .sect-flex-1,
     .sect-flex-1 > img,
     .text-1 {
