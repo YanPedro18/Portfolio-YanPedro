@@ -130,7 +130,7 @@ header {
     overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.638);
     width: 100%;
-    height: 80rem;   
+    height: 75rem;   
 }
 .text-1,
 .sect-flex-1 > img,
@@ -168,10 +168,7 @@ aside {
     margin-top:37%;
     border-radius: 100px;
     animation: load 10s ease-in-out infinite; 
-} 
-.mao {
-    width: 28px;
-}  
+}   
 .respo img:nth-child(2) {
     position: absolute;
     top: 30%;
@@ -558,7 +555,6 @@ aside {
     border-radius: 15px;      
     border: 1px solid rgb(0, 0, 0);
 }
-
 .card > h2 {
     text-align: center;
     color: white;
@@ -571,7 +567,6 @@ aside {
     border-bottom: 2px solid rgb(244, 51, 51);
 }
 .card > a > video {
-    
     margin: 10px 50px 10px 0px;
     width: 27rem;
     padding: 5%;

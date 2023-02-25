@@ -16,9 +16,26 @@ distance: '-10px',
 duration: 1400,
 delay: 400
 };
+
+var speedRight = {
+distance: '-60px',
+duration: 1200,
+delay: 400,
+origin: 'right'
+}
+var speedLeft = {
+distance: '-60px',
+duration: 1600,
+delay: 400,
+origin: 'left'
+}
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('.text-1 > p, .text-1 > h3, .text-1 > h1, .foto, .skills, .sect-04 > h1, .sect-05 > h1, .btn-hover, .sect-05-flex, .card-contact, h6, .row, aside, list-contact > a', speed ,{delay: 200, origin:'top',});
+sr.reveal('.skills, .sect-04 > h1, .sect-05 > h1, .btn-hover, .sect-05-flex, .card-contact, h6, .row, aside, list-contact', speed ,{delay: 200, origin:'top',});
+
+sr.reveal('.text-1', speedRight ,{delay: 200, origin:'right',});
+
+sr.reveal('.respo, .foto, .sect-05-flex ', speedLeft ,{delay: 200, origin:'left',});
 
 sr.reveal('.sect-flex-1 > img',speed,{
 duration: 2000,
