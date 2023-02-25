@@ -181,7 +181,7 @@
         max-width: 6.0%;
     }
 }
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 440px) {
     .sect-flex-1,
     .sect-flex-1 > img,
     .text-1 {
@@ -192,6 +192,7 @@
     }
     html {
         font-size: 0.4rem;
+        overflow-x: hidden;
     }
     .sect-01 {
         display: none;

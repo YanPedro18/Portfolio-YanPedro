@@ -39,8 +39,9 @@ body::-webkit-scrollbar-thumb {
 }
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
     font-size: 59.5%;
+    height: auto;
 }
 :target {
     scroll-margin-top: 5em;
@@ -535,7 +536,7 @@ aside {
     color: white;
 }
 .sect-05-flex {
-    overflow-x: auto !important;
+    overflow-x: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
