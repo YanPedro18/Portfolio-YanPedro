@@ -21,6 +21,7 @@ h4 {
     width: 7%;
 }
 body {
+    overflow-x: hidden;
     background: #242323;
     width: 100%;
     min-width: 30%;
