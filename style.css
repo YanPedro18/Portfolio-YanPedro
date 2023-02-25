@@ -21,7 +21,6 @@ h4 {
     width: 7%;
 }
 body {
-    overflow-x: hidden !important;
     background: #242323;
     width: 100%;
     min-width: 30%;
@@ -40,7 +39,7 @@ body::-webkit-scrollbar-thumb {
 }
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     font-size: 59.5%;
 }
 :target {

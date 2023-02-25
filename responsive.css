@@ -181,10 +181,7 @@
         max-width: 6.0%;
     }
 }
-@media screen and (max-width: 425px) {
-    body {
-        overflow-x: hidden !important;
-    }
+@media screen and (max-width: 435px) {
     .sect-flex-1,
     .sect-flex-1 > img,
     .text-1 {
