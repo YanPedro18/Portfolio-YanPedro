@@ -35,7 +35,7 @@ sr.reveal('.skills, .sect-04 > h1, .sect-05 > h1, .btn-hover, .sect-05-flex, .ca
 
 sr.reveal('.text-1', speedRight ,{delay: 200, origin:'right',});
 
-sr.reveal('.respo, .foto, .sect-05-flex ', speedLeft ,{delay: 200, origin:'left',});
+sr.reveal('.respo, .foto', speedLeft ,{delay: 200, origin:'left',});
 
 sr.reveal('.sect-flex-1 > img',speed,{
 duration: 2000,
