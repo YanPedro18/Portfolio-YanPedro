@@ -31,7 +31,7 @@ origin: 'left'
 }
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('.skills, .sect-04 > h1, .sect-05 > h1, .btn-hover, .sect-05-flex, .card-contact, h6, .row, aside, list-contact', speed ,{delay: 200, origin:'top',});
+sr.reveal('.sect-05-flex, .skills, .sect-04 > h1, .sect-05 > h1, .btn-hover, .sect-05-flex, .card-contact, h6, .row, aside, list-contact', speed ,{delay: 200, origin:'top',});
 
 sr.reveal('.text-1', speedRight ,{delay: 200, origin:'right',});
 
