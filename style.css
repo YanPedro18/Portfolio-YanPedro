@@ -41,6 +41,7 @@ h4 {
     display: grid;
 }
 body {
+    overflow: behavior;
     background: #242323;
     width: 100%;
     min-width: 30%;
