@@ -20,6 +20,26 @@ h4 {
 .mao {
     width: 7%;
 }
+.wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background-color: #252525;
+    display: grid;
+    place-items: center;
+    transition: opacity 4.25s visibility 4s;
+}
+
+.fade {
+    transition: all 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+.loader > img{
+    width: 30%;
+    margin: 0 auto;
+    display: grid;
+}
 body {
     background: #242323;
     width: 100%;
