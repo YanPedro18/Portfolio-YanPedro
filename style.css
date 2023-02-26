@@ -20,7 +20,7 @@ h4 {
 .mao {
     width: 7%;
 }
-.wrapper {
+/* .wrapper {
     position: fixed;
     inset: 0;
     z-index: 9999;
@@ -39,7 +39,7 @@ h4 {
     width: 30%;
     margin: 0 auto;
     display: grid;
-}
+} */
 body {
     overflow: behavior;
     background: #242323;
