@@ -1,9 +1,9 @@
-setTimeout(function fade () {
-    const wrapper = document.querySelector('.wrapper');
-    wrapper.classList.add('fade')
+// setTimeout(function fade () {
+//     const wrapper = document.querySelector('.wrapper');
+//     wrapper.classList.add('fade')
 
-    window.addEventListener('load', fade());
-}, 1000);
+//     window.addEventListener('load', fade());
+// }, 1000);
 
 
 document.addEventListener('DOMContentLoaded', () => {
