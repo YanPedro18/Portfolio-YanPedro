@@ -410,6 +410,8 @@ aside {
 }
 .skills {
     position: absolute;
+    word-wrap: break-word;
+    flex-wrap: wrap;
     cursor: pointer;
     top: 35%;
     right: 0;
@@ -481,27 +483,35 @@ aside {
 }
 .html{
     width: 90%;
-    transition: all 3s;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .css {
     width: 70%;
-    transition: all 3s;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .javascript{
     width: 30%;
-    transition: all 3s;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .mysql {
     width: 10%;
-    transition: all 3s;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .boot {
     width: 60%;
-    transition: all 3s;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .java {
     width: 20%;
-    transition: all 3s;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.json {
+    width: 65%;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.php {
+    width: 25%;
+    transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .skills > li > img {
     filter: grayscale(1);
@@ -588,7 +598,7 @@ aside {
     text-align: center;
     position: relative;
     padding: 2px;
-    width: 70%;
+    width: 75%;
     border-bottom: 2px solid rgb(244, 51, 51);
 }
 .card > a > video {
@@ -638,8 +648,9 @@ aside {
     bottom: 0;
     width: auto;
     height: 25px;
-    transform: rotate(0deg)
+    transform: rotate(0deg);
 }
+
 .card > .content:last-child {
     transform: translate(-17%,-8%);
     height: 22px;

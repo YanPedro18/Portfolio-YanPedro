@@ -162,6 +162,7 @@
    .card > p {
         max-width: 80%;
         display: none;
+        padding-bottom: .2rem;
     }
     .card > h5 {
         transform: translateY(-1%);
@@ -251,7 +252,9 @@
         width: 27%;
     }
     .skills {
-        max-width: 100%;
+        position: relative;
+        top: 0%;
+    
     }
     .skills > li > .jszin {
         width: 37% !important;
@@ -260,7 +263,7 @@
         width: 30px !important;
     }
     .sect-04 {
-        height: 50vh;
+        height: 54vh;
     }
     .card {
         margin-top: 10%;
@@ -307,6 +310,12 @@
     }
     .list-contact > li > a > img{
         max-width: 6.0%;
+    }
+    .sect-container1 {
+        height: 100rem;
+    }
+    .card > p {
+        display: block;
     }
 }
 @media (max-width: 600px ) {
