@@ -10,7 +10,7 @@
      }
     .skills {
         width: auto;
-        max-width: 55%;
+        max-width: 45%;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -147,6 +147,7 @@
     .skills > li > img {
         width: 30px !important;
     }
+
     .sect-04 {
         height: 50vh;
     }
@@ -254,13 +255,16 @@
     .skills {
         position: relative;
         top: 0%;
-    
     }
     .skills > li > .jszin {
         width: 37% !important;
     }
     .skills > li > img {
         width: 30px !important;
+    }
+    .skills > li > .php {
+        margin-top: 9.9px;
+        margin-bottom: 10.7px;
     }
     .sect-04 {
         height: 54vh;
@@ -316,6 +320,9 @@
     }
     .card > p {
         display: block;
+    }
+    .card {
+        margin: 0px 10px 0px 10px;
     }
 }
 @media (max-width: 600px ) {
